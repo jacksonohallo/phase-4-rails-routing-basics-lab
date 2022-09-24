@@ -15,6 +15,7 @@ To get set up, run:
 
 ```console
 $ bundle install
+
 $ rails db:migrate db:seed
 ```
 
@@ -29,6 +30,7 @@ This will download all the dependencies for our app and set up the database.
   don't forget to pass the `--no-test-framework` argument!
 - In the `index` action, return JSON data representing a list of all
   students
+  rails g controller Cheeses --no-test-framework
 
 ### Grades Route
 
